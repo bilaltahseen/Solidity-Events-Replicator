@@ -1,0 +1,4 @@
+{
+    "rpcUrl":"https://rpc-mumbai.matic.today",
+    "rpcUrlWSS":"wss://ws-matic-mumbai.chainstacklabs.com"
+}

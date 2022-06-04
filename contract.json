@@ -1,0 +1,65 @@
+{
+    "abi":[
+        {
+            "inputs": [
+                {
+                    "internalType": "address",
+                    "name": "_adddress",
+                    "type": "address"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "_value",
+                    "type": "uint256"
+                }
+            ],
+            "name": "createDeposit",
+            "outputs": [],
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": true,
+                    "internalType": "address",
+                    "name": "_from",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "_value",
+                    "type": "uint256"
+                }
+            ],
+            "name": "Deposit",
+            "type": "event"
+        },
+        {
+            "inputs": [
+                {
+                    "internalType": "address",
+                    "name": "",
+                    "type": "address"
+                }
+            ],
+            "name": "deposits",
+            "outputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        }
+    ],
+    
+    "address":"0x34677782A91f05302E10dd7A607b2A0641c65dE6",
+    "events":{
+        "Deposit":"Deposit"
+    }
+}
